@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <!--CSS -->
+    <link rel="stylesheet" href="./starter/css/style.css" />
+  </head>
+
+  <body>
+    <!--Header-->
+    <header>
+      <div class="header">
+        <div>
+          <a type="button" id="score-check">View high scores</a>
+        </div>
+        <div>
+          <h3 id="timer">Time: 0</h3>
+        </div>
+      </div>
+    </header>
+    <!--End of header-->
+
+    <!--Main content-->
+    <main id="content">
+      <div>
+        <!--Intro-page-->
+        <section id="intro-page">
+          <div id="introduction">
+            <h1>Coding Quiz Challenge</h1>
+            <p id="instruction">
+              Try answer the following code-relating questions within the time
+              limit. Keep in mind that incorrect answers will penalise your
+              score / time by ten seconds!
+            </p>
+            <a class="btn" id="start">Start Quiz</a>
+          </div>
+        </section>
+        <!--End of intro-page-->
+
+        <!--Question page-->
+        <section id="question-page" class="question-page">
+          <div>
+            <h2 id="ask-question">Ask the question</h2>
+            <ul class="quiz-options" id="quiz-options">
+              <li>
+                <button class="choices button" id="answer-bt1">Option 1</button>
+              </li>
+              <li>
+                <button class="choices button" id="answer-bt2">Option 2</button>
+              </li>
+              <li>
+                <button ckass="choices button" id="answer-bt3">Option 3</button>
+              </li>
+              <li>
+                <button class="choices button" id="answer-bt4">Option 4</button>
+              </li>
+            </ul>
+          </div>
+
+          <!--Check user's answers-->
+          <div id="check-line">Correct or Wrong</div>
+        </section>
+        <!--End of question page-->
+
+        <!--Final score and enter initials-->
+        <section class="submit-page" id="submit-page">
+          <div>
+            <h2 id="finish">All Done!</h2>
+            <p id="final-score">Your final score is :</p>
+            <p>
+              Enter initials
+              <input id="initial" />
+              <button class="button" id="submit-btn">Submit</button>
+            </p>
+          </div>
+        </section>
+        <!--End of final score-->
+
+        <!--High scores page-->
+        <section class="highscore-page" id="highscore-page">
+          <div>
+            <h2>High Scores</h2>
+            <div id="score-record"><p>Your record</p></div>
+            <br />
+
+            <div>
+              <button class="button" id="back-btn">Go back</button>
+              <button class="button" id="clear-btn">Clear Highscores</button>
+            </div>
+          </div>
+        </section>
+        <!--End of high scores page-->
+      </div>
+    </main>
+    <!--End of the main content-->
+
+    <!--Footer-->
+    <footer id="bottom">
+      <h4>(c) 2022 Chris-Eric Dagbo</h4>
+    </footer>
+    <!--End of footer-->
+
+    <!--JavaScript -->
+    <script src="./starter/js/script.js"></script>
+  </body>
+</html>
