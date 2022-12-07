@@ -71,7 +71,7 @@ Code Quiz is under MIT License.
 
 ## Deployment
 <ul>
-    <li>Website: </li>
+    <li>Website: https://cedagbo.github.io/Quiz-app/ </li>
     <li>Repository: https://github.com/cedagbo/Code-Quiz </li>
 </ul>
 
